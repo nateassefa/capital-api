@@ -53,3 +53,9 @@ Washington
 London Tokyo
 Addis Ababa
 Canberra
+
+## Handling space errors in terminal
+
+If the city (only Addis Ababa in this case) contains a space, replace the space with %20 when making the request. Below is an example with Addis Ababa:
+
+curl -H "Authorization: uva_ticket24302" "http://34.105.60.104:5000/get_time?city=Addis%20Ababa"
