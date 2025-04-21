@@ -1,5 +1,7 @@
 # Capital Time API
 
+BY: Nate Assefa zay4ap, Tsion Abate nma6gh, Dan Bezabhe szs8pw
+
 ## Description
 This is a Flask API deployed on a GCP VM that returns the local time and UTC offset of a given capital city. Token authentication is required.
 
